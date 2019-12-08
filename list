@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+import os
+uwu = os.getcwd().split('/')
+if 'figlet' not in uwu:
+    os.chdir('/data/data/com.termux/files/usr/share/figlet')
+
+ls = [x for x in os.listdir() if 'flf' in x]
+for x in ls:
+    print(x)
+    os.system(f'figlet -f "{x}" test')
+    input()
