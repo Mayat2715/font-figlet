@@ -7,6 +7,7 @@ menambah font tambahan figlet
 3. ke dir figlet `cd $PREFIX/share/figlet`
 4. ambil script get.py `wget https://raw.githubusercontent.com/Mayat2715/font-figlet/master/get.py`
 5. run script get.py `python get.py`
+
 **Selesai!**
 Kalo klean mau liat fontnya 1per1, ke dir bin `cd $PREFIX/bin`
 dah tuh ambil script list `wget https://raw.githubusercontent.com/Mayat2715/font-figlet/master/list`
