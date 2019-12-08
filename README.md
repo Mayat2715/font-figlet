@@ -10,8 +10,12 @@ menambah font tambahan figlet
 
 **Selesai!**
 Kalo klean mau liat fontnya 1per1, ke dir bin `cd $PREFIX/bin`
+
 dah tuh ambil script list `wget https://raw.githubusercontent.com/Mayat2715/font-figlet/master/list`
+
 beri permission ownernya jadi *rwx* `chmod +x list`
+
 bisa dirun dengan command `list`
+
 
 Videonya otw
