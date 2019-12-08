@@ -23,12 +23,16 @@ if 'figlet' not in uwu:
 r = be(requests.get('http://www.figlet.org/fontdb.cgi').text, 'html.parser')
 r = [x.text+'.flf' for x in r.find_all('a') if 'flf' in x['href']]
 ls = os.listdir()
+def down(x): 
+    if x in ls:
+        pass
+    else:
+        open(x, 'w').write(requests.get('http://www.figlet.org/fonts/'+x).text)
+        print('downloaded:',x)
+
 p.kill()
 print('Ok!\ndownloading')
 
 for x in r:
-    if x in ls:
-        pass
-    else:
-        open(x,'w').write(requests.get('http://www.figlet.org/fonts/'+x).text)
-        print('downloaded:',x)
+    ppq = pro(target=down, args=(x,)).start()
+    sleep(0.01)
