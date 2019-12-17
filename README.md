@@ -19,4 +19,4 @@ beri permission ownernya jadi *rwx* `chmod +x list`
 bisa dirun dengan command `list`
 
 
-Videonya otw
+tonton [VIDEO](https://youtu.be/IrZjMqAUxhA)nya
